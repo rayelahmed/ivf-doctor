@@ -1,0 +1,73 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 25%;
+  padding-top: 14px;
+  padding-bottom: 17px;
+}
+nav li {
+  list-style: none;
+  margin-left: 11px;
+}
+nav ul li {
+  font-family: "Inter", sans-serif;
+  list-style: none;
+  font-size: 18px;
+  color: #5a5a5a;
+  font-weight: 400;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 31px;
+}
+
+/* Media Queries Breakpoints */
+
+/* Extra Small Devices (Mobile Phones - Portrait) */
+@media only screen and (max-width: 320px) {
+  /* Styles for devices smaller than 320px (small phones) */
+}
+
+/* Small Devices (Mobile Phones - Landscape) */
+@media only screen and (max-width: 480px) {
+  nav {
+    display: flex;
+    justify-content: center;
+    margin-right: 15%;
+    padding-top: 14px;
+    padding-bottom: 17px;
+  }
+
+  nav ul {
+    display: none;
+    justify-content: space-between;
+    gap: 31px;
+  }
+}
+
+/* Medium Devices (Tablets) */
+@media only screen and (max-width: 768px) {
+  /* Styles for tablets (both portrait and landscape) */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 11px;
+    padding-top: 14px;
+    padding-bottom: 17px;
+  }
+
+  nav ul {
+    display: none;
+  }
+}
+
+/* Extra Large Devices (Desktops) */
+@media only screen and (min-width: 769px) {
+  /* Styles for very large screens (desktops with ultra-wide monitors) */
+
+  .hamburger {
+    display: none;
+  }
+}
